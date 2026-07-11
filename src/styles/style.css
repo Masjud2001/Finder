@@ -1834,3 +1834,52 @@ body {
     border-radius: 12px 12px 0 0;
   }
 }
+
+/* Features & Footer Landing Page Styles */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 85px 20px;
+  background-color: #0d0f12;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #1a1d22;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 35px 28px;
+  max-width: 320px;
+  text-align: center;
+  transition: var(--transition-smooth);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  border-color: rgba(253, 41, 123, 0.3);
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd297b;
+  margin-bottom: 14px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-gray);
+}
+
+.landing-footer {
+  background-color: #0b0d0f;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-gray);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+}
+

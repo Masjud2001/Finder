@@ -7,4 +7,11 @@ function Hero({ onGetStartedClick }) {
       <p style={{ margin: "24px auto 36px", padding: 0 }}>
         SoulSync helps you build genuine connections through compatibility, personality matches, shared lifestyles, and interactive conversations.
       </p>
-      <button className="btn-primary-gradient" onClick={onGetS
+      <button className="btn-primary-gradient" onClick={onGetStartedClick}>
+        Get Started
+      </button>
+    </section>
+  );
+}
+
+export default Hero;

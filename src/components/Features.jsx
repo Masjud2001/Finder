@@ -1,61 +1,24 @@
+import React from "react";
+
 function Features() {
+  return (
+    <section className="features-section">
+      <div className="feature-card">
+        <h3>❤️ Compatibility</h3>
+        <p>Find people who share your values and lifestyle choices, moving beyond superficial swiping.</p>
+      </div>
 
-return(
+      <div className="feature-card">
+        <h3>🔒 Privacy First</h3>
+        <p>Control who sees your profile, toggle stealth mode, and block/report unwanted accounts easily.</p>
+      </div>
 
-<section className="features">
-
-<div className="card">
-
-<h2>
-
-❤️ Compatibility
-
-</h2>
-
-<p>
-
-Find people based on values instead of endless swiping.
-
-</p>
-
-</div>
-
-<div className="card">
-
-<h2>
-
-🔒 Privacy
-
-</h2>
-
-<p>
-
-Control how notifications appear and protect your privacy.
-
-</p>
-
-</div>
-
-<div className="card">
-
-<h2>
-
-🤖 AI Matching
-
-</h2>
-
-<p>
-
-Receive intelligent recommendations based on personality.
-
-</p>
-
-</div>
-
-</section>
-
-)
-
+      <div className="feature-card">
+        <h3>🤖 AI Recommendation</h3>
+        <p>Intelligent, interest-driven suggestions match you with profiles that align with your lifestyle tags.</p>
+      </div>
+    </section>
+  );
 }
 
 export default Features;
