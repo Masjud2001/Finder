@@ -4,7 +4,7 @@ function Navbar({ onSignInClick }) {
   return (
     <nav className="landing-header">
       <div className="landing-logo">
-        <span>❤️</span> SoulSync
+        <span>❤️</span> Finder
       </div>
       <div className="landing-nav">
         <ul>
