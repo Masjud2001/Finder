@@ -4,7 +4,7 @@ function Navbar({ onSignInClick }) {
   return (
     <nav className="landing-header">
       <div className="landing-logo">
-        <span>❤️</span> Finder
+        <span>❤️</span> what's Left
       </div>
       <div className="landing-nav">
         <ul>

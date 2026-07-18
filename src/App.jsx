@@ -204,7 +204,7 @@ function App() {
   // Undo (Tinder Gold/Platinum feature)
   const handleUndo = () => {
     if (userProfile.vipTier === "free") {
-      triggerToast("Unlock Rewinds with Finder Gold!");
+      triggerToast("Unlock Rewinds with what's Left Gold!");
       setShowPremiumModal(true);
       return;
     }
@@ -364,7 +364,7 @@ function App() {
           <Navbar onSignInClick={() => setShowLoginModal(true)} />
           <div className="landing-hero">
             <h1>Swipe Right®</h1>
-            <p>Finder helps you build genuine connections based on compatibility, lifestyle preference, and meaningful conversations.</p>
+            <p>what's Left helps you build genuine connections based on compatibility, lifestyle preference, and meaningful conversations.</p>
             <button className="btn-primary-gradient" onClick={() => setShowLoginModal(true)}>
               Create Account
             </button>
@@ -410,7 +410,7 @@ function App() {
               <div className="sidebar-promo" onClick={() => setShowPremiumModal(true)}>
                 <div className="promo-title">
                   <Sparkles size={16} />
-                  <span>Get Finder Gold</span>
+                  <span>Get what's Left Gold</span>
                 </div>
                 <div className="promo-action">Upgrade</div>
               </div>
@@ -419,7 +419,7 @@ function App() {
               <div className="sidebar-promo" style={{ background: "var(--gold-gradient)" }} onClick={() => setShowPremiumModal(true)}>
                 <div className="promo-title">
                   <Sparkles size={16} />
-                  <span>Finder Gold Active</span>
+                  <span>what's Left Gold Active</span>
                 </div>
               </div>
             )}
@@ -427,7 +427,7 @@ function App() {
               <div className="sidebar-promo is-vip" onClick={() => setShowPremiumModal(true)}>
                 <div className="promo-title">
                   <Sparkles size={16} />
-                  <span>Finder Platinum Active</span>
+                  <span>what's Left Platinum Active</span>
                 </div>
               </div>
             )}
@@ -773,7 +773,7 @@ function App() {
               <X size={18} />
             </button>
             <div className="login-modal-inner">
-              <div className="login-modal-logo">❤️ Finder</div>
+              <div className="login-modal-logo">❤️ what's Left</div>
               <p className="login-modal-subtitle">By clicking Log In, you agree to our Terms. Learn how we process your data in our Privacy Policy and Cookie Policy.</p>
               
               <div className="auth-providers">
@@ -925,7 +925,7 @@ function App() {
                   onClick={() => setUserProfile(prev => ({ ...prev, vipTier: "gold" }))}
                 >
                   <div className="premium-logo-row">
-                    <span className="premium-tier-name">Finder Gold</span>
+                    <span className="premium-tier-name">what's Left Gold</span>
                     <span className="premium-tier-badge">Popular</span>
                   </div>
                   <p>✓ Unlimited swipes & matches</p>
@@ -939,7 +939,7 @@ function App() {
                   onClick={() => setUserProfile(prev => ({ ...prev, vipTier: "platinum" }))}
                 >
                   <div className="premium-logo-row">
-                    <span className="premium-tier-name">Finder Platinum</span>
+                    <span className="premium-tier-name">what's Left Platinum</span>
                     <span className="premium-tier-badge">Best Value</span>
                   </div>
                   <p>✓ Everything in Gold tier + VIP priority matching</p>
@@ -956,10 +956,10 @@ function App() {
               ) : (
                 <button className="btn-purchase" onClick={() => {
                   setUserProfile(prev => ({ ...prev, vipTier: "gold" }));
-                  triggerToast("Subscribed to Finder Gold! Gold perks active.");
+                  triggerToast("Subscribed to what's Left Gold! Gold perks active.");
                   setShowPremiumModal(false);
                 }}>
-                  Join Finder Gold
+                  Join what's Left Gold
                 </button>
               )}
             </div>

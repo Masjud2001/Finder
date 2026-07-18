@@ -161,7 +161,7 @@ export const mockProfiles = [
       "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=80"
     ],
     conversationResponses: [
-      "Hi! It's so nice to connect. What brings you to Finder? 😊",
+      "Hi! It's so nice to connect. What brings you to what's Left? 😊",
       "Pottery is super therapeutic! I can teach you some wheel tossing if you want. It's like Ghost but less dramatic.",
       "Haha yes! Let's meet at my studio first or get some tea at the botanical garden.",
       "Botanical gardens this Saturday it is! It's going to be so relaxing."
