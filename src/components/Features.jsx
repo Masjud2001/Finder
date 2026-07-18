@@ -3,7 +3,7 @@ import React from "react";
 function Features() {
   return (
     <section className="features-section">
-      <div className="feature-card">
+      <div className="feature-card" id="compatibility-section">
         <h3>❤️ Compatibility</h3>
         <p>Find people who share your values and lifestyle choices, moving beyond superficial swiping.</p>
       </div>
