@@ -8,7 +8,7 @@ function Navbar({ onSignInClick }) {
       </div>
       <div className="landing-nav">
         <ul>
-          <li><a href="#discover" onClick={(e) => e.preventDefault()}>Discover</a></li>
+          <li><a href="#discover" onClick={(e) => { e.preventDefault(); onSignInClick(); }}>Discover</a></li>
           <li><a href="#compatibility" onClick={(e) => e.preventDefault()}>Compatibility</a></li>
           <li><a href="#safety" onClick={(e) => e.preventDefault()}>Safety</a></li>
           <li><a href="#premium" onClick={(e) => e.preventDefault()}>Premium</a></li>
